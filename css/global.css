@@ -56,7 +56,10 @@ a {
           box-sizing: border-box;
 }
 
-body {
+.body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
   background-image: url(../images/shadow.png), url(../images/right.png);
   background-position: top -18.84px left, top -108px right;
   background-repeat: no-repeat, no-repeat;
@@ -79,7 +82,19 @@ header .container {
       -ms-flex-align: center;
           align-items: center;
 }
-header .container ul {
+header .container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+}
+header .container div ul {
   width: 460px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,12 +103,12 @@ header .container ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .container ul li a {
+header .container div ul li a {
   font-size: 17px;
   font-weight: 400;
   color: #212832;
 }
-header .container div {
+header .container div .button1 {
   width: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,7 +117,7 @@ header .container div {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .container div button {
+header .container div .button1 button {
   font-size: 17px;
   font-weight: 500;
   color: #212832;
@@ -114,12 +129,12 @@ header .container div button {
   background-color: transparent;
   cursor: pointer;
 }
-header .container nav::after {
+header .container div nav::after {
   content: url(../images/en.png);
   margin-left: 5px;
   margin-bottom: 5px;
 }
-header .container nav {
+header .container div nav {
   font-size: 17px;
   font-weight: 500;
   color: #212832;
