@@ -142,6 +142,10 @@ header {
             cursor: pointer; 
         }
 
+        .yellow:hover {
+            background-color: #181E4B;
+        }
+
         .red-button {
             display: flex;
             justify-content: space-between;
@@ -162,6 +166,16 @@ header {
                 font-size: 17px;
                 font-weight: 500;
                 color: #686D77;
+            }
+        }
+
+        .red-button:hover {
+            .red {
+                background-color: #181E4B;
+            }
+
+            a {
+                color: #181E4B;
             }
         }
 
