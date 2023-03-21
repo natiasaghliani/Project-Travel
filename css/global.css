@@ -440,4 +440,175 @@ header .container div nav {
 }
 .s-3 .container .destination .destination-cards:hover {
   background-color: #f7bbaf;
+}
+
+.s-4 {
+  background-image: url("../images/s-4decor.jpg");
+  background-repeat: no-repeat;
+  background-position: top -90px right -10px;
+}
+.s-4 .container {
+  max-width: 1115px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.s-4 .container .ticket {
+  width: 511px;
+}
+.s-4 .container .ticket h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5E6282;
+  margin-bottom: 15px;
+}
+.s-4 .container .ticket h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #14183E;
+  margin-bottom: 45px;
+}
+.s-4 .container .ticket .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 48px;
+}
+.s-4 .container .ticket .step img {
+  margin-right: 21px;
+}
+.s-4 .container .ticket .step .text {
+  width: 327px;
+}
+.s-4 .container .ticket .step .text h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5E6282;
+  margin-bottom: 5px;
+}
+.s-4 .container .ticket .step .text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5E6282;
+  line-height: 19.92px;
+}
+.s-4 .container .right-card {
+  position: relative;
+  width: 215px;
+}
+.s-4 .container .right-card .first {
+  width: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 26px;
+  padding: 20px;
+  position: absolute;
+  z-index: 10;
+  top: -180px;
+  left: -200px;
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+.s-4 .container .right-card .first .img1 {
+  margin-bottom: 26px;
+}
+.s-4 .container .right-card .first h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #080809;
+  margin-bottom: 15px;
+}
+.s-4 .container .right-card .first .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 21px;
+}
+.s-4 .container .right-card .first .date p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #84829A;
+}
+.s-4 .container .right-card .first .date .line::after {
+  content: url("../images/line3.png");
+  margin-right: 10px;
+  margin-left: 2px;
+}
+.s-4 .container .right-card .first .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 140px;
+  margin-bottom: 21px;
+}
+.s-4 .container .right-card .first .last-line {
+  font-size: 16px;
+  font-weight: 500;
+  color: #84829A;
+}
+.s-4 .container .right-card .first .last-line::before {
+  content: url("../images/building.png");
+  margin-right: 10px;
+}
+.s-4 .container .right-card .first .last-line::after {
+  content: url("../images/heart.png");
+  margin-left: 170px;
+}
+.s-4 .container .right-card .second {
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  z-index: 15;
+  width: 260px;
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  padding: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+.s-4 .container .right-card .second .title h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #84829A;
+  margin-bottom: 5px;
+}
+.s-4 .container .right-card .second .title .trip {
+  font-size: 18px;
+  font-weight: 500;
+  color: #080809;
+  margin-bottom: 8px;
+}
+.s-4 .container .right-card .second .title .procent {
+  font-size: 14px;
+  font-weight: 500;
+  color: #080809;
+}
+.s-4 .container .right-card .second .title span {
+  color: #8A79DF;
 }/*# sourceMappingURL=global.css.map */
