@@ -843,4 +843,80 @@ header {
             z-index: 10;
         }
     }
+
+}
+
+footer {
+
+    .container {
+        max-width: 1200px;
+        width: 100%;
+
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        .ft-left {
+            width: 207px;
+
+            h2 {
+                font-size: 44px;
+                font-weight: 500;
+                color: #181E4B;
+                margin-bottom: 19px;
+            }
+
+            p {
+                font-size: 13px;
+                font-weight: 500;
+                color: #5E6282;
+            }
+        }
+
+        .ft-midle {
+
+            h3 {
+                font-size: 26px;
+                font-weight: 700;
+                color: #080809;
+                margin-bottom: 34px;
+            }
+
+            h5 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #5E6282;
+                margin-bottom: 12px;
+            }
+        }
+
+        .ft-right {
+            display: flex;
+            flex-direction: column;
+            
+
+            .social {
+                width: 177px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 26px;
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: 500;
+                color: #5E6282;
+                margin-bottom: 16px;
+                margin-left: 10px;
+            }
+
+            .store {
+                display: flex;
+                justify-content: space-between;
+                width: 214px;
+                margin-left: 7px;
+            }
+        }
+    }
 }
