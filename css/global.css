@@ -56,7 +56,7 @@ a {
           box-sizing: border-box;
 }
 
-.body {
+header .hero {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -64,8 +64,7 @@ a {
   background-position: top -18.84px left, top -108px right;
   background-repeat: no-repeat, no-repeat;
 }
-
-header .container {
+header .hero .container {
   max-width: 1160px;
   width: 100%;
   margin: 0 auto;
@@ -81,7 +80,7 @@ header .container {
       -ms-flex-align: center;
           align-items: center;
 }
-header .container div {
+header .hero .container div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,7 +92,7 @@ header .container div {
           align-items: center;
   width: 800px;
 }
-header .container div ul {
+header .hero .container div ul {
   width: 460px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,12 +101,12 @@ header .container div ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .container div ul li a {
+header .hero .container div ul li a {
   font-size: 17px;
   font-weight: 400;
   color: #212832;
 }
-header .container div .button1 {
+header .hero .container div .button1 {
   width: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,7 +115,7 @@ header .container div .button1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .container div .button1 button {
+header .hero .container div .button1 button {
   font-size: 17px;
   font-weight: 500;
   color: #212832;
@@ -128,20 +127,19 @@ header .container div .button1 button {
   background-color: transparent;
   cursor: pointer;
 }
-header .container div nav::after {
+header .hero .container div nav::after {
   content: url(../images/en.png);
   margin-left: 5px;
   margin-bottom: 5px;
 }
-header .container div nav {
+header .hero .container div nav {
   font-size: 17px;
   font-weight: 500;
   color: #212832;
   cursor: pointer;
 }
-
-.s-1 {
-  max-width: 1200px;
+header .hero .s-1 .container1 {
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   display: -webkit-box;
@@ -153,22 +151,25 @@ header .container div nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 30px;
 }
-.s-1 h4 {
+header .hero .s-1 .container1 .left-text {
+  width: 545px;
+}
+header .hero .s-1 .container1 .left-text h4 {
   font-weight: 700;
   font-size: 20px;
   color: #DF6951;
   margin-bottom: 24px;
 }
-.s-1 h1 {
+header .hero .s-1 .container1 .left-text h1 {
   font-weight: 700;
   font-size: 84px;
   line-height: 89px;
   color: #181E4B;
-  width: 545px;
   margin-bottom: 30px;
 }
-.s-1 p {
+header .hero .s-1 .container1 .left-text p {
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
@@ -176,7 +177,7 @@ header .container div nav {
   width: 477px;
   margin-bottom: 34px;
 }
-.s-1 .s-1-button {
+header .hero .s-1 .container1 .left-text .s-1-button {
   width: 380px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,7 +189,7 @@ header .container div nav {
       -ms-flex-align: center;
           align-items: center;
 }
-.s-1 .s-1-button .yellow {
+header .hero .s-1 .container1 .left-text .s-1-button .yellow {
   width: 170px;
   height: 60px;
   border: none;
@@ -203,10 +204,10 @@ header .container div nav {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
-.s-1 .s-1-button .yellow:hover {
+header .hero .s-1 .container1 .left-text .s-1-button .yellow:hover {
   background-color: #181E4B;
 }
-.s-1 .s-1-button .red-button {
+header .hero .s-1 .container1 .left-text .s-1-button .red-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -218,7 +219,7 @@ header .container div nav {
       -ms-flex-align: center;
           align-items: center;
 }
-.s-1 .s-1-button .red-button .red {
+header .hero .s-1 .container1 .left-text .s-1-button .red-button .red {
   border: none;
   width: 52px;
   height: 52px;
@@ -228,16 +229,28 @@ header .container div nav {
           box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
   cursor: pointer;
 }
-.s-1 .s-1-button .red-button a {
+header .hero .s-1 .container1 .left-text .s-1-button .red-button a {
   font-size: 17px;
   font-weight: 500;
   color: #686D77;
 }
-.s-1 .s-1-button .red-button:hover .red {
+header .hero .s-1 .container1 .left-text .s-1-button .red-button:hover .red {
   background-color: #181E4B;
 }
-.s-1 .s-1-button .red-button:hover a {
+header .hero .s-1 .container1 .left-text .s-1-button .red-button:hover a {
   color: #181E4B;
+}
+header .hero .s-1 .container1 .hero-girl {
+  width: 768px;
+  height: 760px;
+  background-image: url(../images/girl.png);
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1088px) {
+  header .hero .s-1 .container1 .hero-girl {
+    width: 550px;
+    height: 550px;
+  }
 }
 
 .s-2 {
@@ -380,13 +393,26 @@ header .container div nav {
   margin-bottom: 60px;
 }
 .s-3 .container .destination {
-  width: 1140px;
+  max-width: 1140px;
+  width: 100%;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media (max-width: 882px) {
+  .s-3 .container .destination {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .s-3 .container .destination .destination-cards {
   background-color: #FFFFFF;
@@ -614,6 +640,7 @@ header .container div nav {
 .s-5 .container {
   max-width: 1170px;
   width: 100%;
+  padding: 30px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -721,6 +748,7 @@ header .container div nav {
 .s-6 .container {
   max-width: 1170px;
   width: 100%;
+  padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -813,9 +841,9 @@ header .container div nav {
   color: #181E4B;
 }
 .s-7 .container img {
-  position: relative;
-  top: 10px;
-  left: 1210px;
+  position: absolute;
+  top: 15px;
+  right: 65px;
   z-index: 10;
 }
 
