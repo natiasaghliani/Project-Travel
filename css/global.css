@@ -386,6 +386,7 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
   color: #14183E;
   margin-bottom: 75px;
   font-family: "Volkhov", serif;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .s-2 .container h2 {
@@ -429,6 +430,11 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
   left: 270px;
   top: 160px;
   z-index: 1;
+}
+@media (max-width: 700px) {
+  .s-2 .container .cards .red-decoration {
+    display: none;
+  }
 }
 .s-2 .container .cards .card {
   width: 190px;
@@ -527,6 +533,7 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
   color: #14183E;
   margin-bottom: 60px;
   font-family: "Volkhov", serif;
+  text-align: center;
 }
 @media (max-width: 364px) {
   .s-3 .container h2 {
@@ -750,7 +757,8 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
   line-height: 19.92px;
 }
 .s-4 .container .right-card {
-  width: 510px;
+  max-width: 510px;
+  width: 100%;
   height: 500px;
 }
 .s-4 .container .right-card .right-card1 {
@@ -763,6 +771,21 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 @media (max-width: 950px) {
   .s-4 .container .right-card .right-card1 {
     top: 0;
+  }
+}
+@media (max-width: 530px) {
+  .s-4 .container .right-card .right-card1 {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 .s-4 .container .right-card .right-card1 .first {
@@ -786,8 +809,15 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 }
 @media (max-width: 530px) {
   .s-4 .container .right-card .right-card1 .first {
-    top: 0;
-    left: 15%;
+    position: static;
+    top: auto;
+    left: auto;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 364px) {
+  .s-4 .container .right-card .right-card1 .first {
+    width: 300px;
   }
 }
 .s-4 .container .right-card .right-card1 .first .img1 {
@@ -858,8 +888,9 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 }
 @media (max-width: 530px) {
   .s-4 .container .right-card .right-card1 .second {
-    top: 80%;
-    left: 26%;
+    position: static;
+    top: auto;
+    left: auto;
   }
 }
 .s-4 .container .right-card .right-card1 .second .title h6 {
@@ -924,6 +955,7 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
   color: #14183E;
   margin-bottom: 82px;
   font-family: "Volkhov", serif;
+  line-height: 70px;
 }
 @media (max-width: 1014px) {
   .s-5 .container .left-side h1 {
