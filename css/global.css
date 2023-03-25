@@ -206,10 +206,10 @@ header .hero .s-1 .container1 .left-text h4 {
   margin-bottom: 24px;
 }
 header .hero .s-1 .container1 .left-text h1 {
-  font-weight: 700;
   font-size: 84px;
   line-height: 89px;
   color: #181E4B;
+  font-family: "Volkhov", serif;
   margin-bottom: 30px;
 }
 @media (max-width: 972px) {
@@ -226,7 +226,7 @@ header .hero .s-1 .container1 .left-text h1 {
 }
 header .hero .s-1 .container1 .left-text p {
   font-size: 16px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   line-height: 30px;
   color: #5E6282;
   max-width: 477px;
@@ -383,9 +383,9 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 }
 .s-2 .container h2 {
   font-size: 50px;
-  font-weight: 700;
   color: #14183E;
   margin-bottom: 75px;
+  font-family: "Volkhov", serif;
 }
 @media (max-width: 500px) {
   .s-2 .container h2 {
@@ -481,7 +481,7 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 }
 .s-2 .container .cards .card p {
   font-size: 16px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   color: #5E6282;
   width: 170px;
   text-align: center;
@@ -524,9 +524,9 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 }
 .s-3 .container h2 {
   font-size: 50px;
-  font-weight: 700;
   color: #14183E;
   margin-bottom: 60px;
+  font-family: "Volkhov", serif;
 }
 @media (max-width: 364px) {
   .s-3 .container h2 {
@@ -679,9 +679,9 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 }
 .s-4 .container .ticket h1 {
   font-size: 50px;
-  font-weight: 700;
   color: #14183E;
   margin-bottom: 45px;
+  font-family: "Volkhov", serif;
 }
 @media (max-width: 950px) {
   .s-4 .container .ticket h1 {
@@ -807,7 +807,7 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 }
 .s-4 .container .right-card .right-card1 .first .date p {
   font-size: 16px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   color: #84829A;
 }
 .s-4 .container .right-card .right-card1 .first .date .line::after {
@@ -921,9 +921,9 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 .s-5 .container .left-side h1 {
   width: 409px;
   font-size: 50px;
-  font-weight: 700;
   color: #14183E;
   margin-bottom: 82px;
+  font-family: "Volkhov", serif;
 }
 @media (max-width: 1014px) {
   .s-5 .container .left-side h1 {
@@ -954,7 +954,7 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 .s-5 .container .right-side .card1 p {
   max-width: 400px;
   font-size: 16px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   color: #5E6282;
   margin-bottom: 34px;
   padding: 28px 68px 0 34px;
@@ -987,7 +987,7 @@ header .hero .s-1 .container1 .hero-girl .hero-girl1 {
 .s-5 .container .right-side .card2 p {
   max-width: 400px;
   font-size: 16px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   color: #5E6282;
   margin-bottom: 34px;
   padding: 28px 68px 0 34px;
@@ -1225,13 +1225,13 @@ footer .container .ft-left {
 }
 footer .container .ft-left h2 {
   font-size: 44px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   color: #181E4B;
   margin-bottom: 19px;
 }
 footer .container .ft-left p {
   font-size: 13px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   color: #5E6282;
 }
 footer .container .ft-midle {
@@ -1264,13 +1264,14 @@ footer .container .ft-midle {
 }
 footer .container .ft-midle .ft-midle1 h3 {
   font-size: 26px;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #080809;
   margin-bottom: 34px;
 }
 footer .container .ft-midle .ft-midle1 h5 {
   font-size: 18px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
   color: #5E6282;
   margin-bottom: 12px;
 }
